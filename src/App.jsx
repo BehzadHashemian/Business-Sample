@@ -1,17 +1,27 @@
 import React from 'react'
 import styles from './style'
+import Navbar from "./components/Navbar";
+import Billing from "./components/Billing";
+import CardDeal from "./components/CardDeal";
+import Business from "./components/Business";
+import Clients from "./components/Clients";
+import CTA from "./components/CTA";
+import Stats from "./components/Stats";
+import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
+import Hero from "./components/Hero";
 const App = () => {
   return (
     <>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        navbar
+        <Navbar />
       </div>
     </div>
     
     <div className={`bg-primary ${styles.flexStart}`} >
         <div className={`${styles.boxWidth}`} >
-          main
+          <Hero />
         </div>
     </div>
 
