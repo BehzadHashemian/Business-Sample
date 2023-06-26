@@ -17,7 +17,7 @@ const Business = () => {
         </div>
       </div>
 
-      <div className='flex flex-col md:w-[45%] mr-5 mx-6 my-6'>
+      <div className='flex flex-col md:w-[45%] mr-5 mx-6 my-'>
         {features.map((feat , index)=>(
           <div className='flex flex-row my-4 feature-card rounded-[20px] items-center p-2' key={index}>
             <div className='rounded-full bg-dimBlue w-14 h-14 flex items-center justify-center'>
